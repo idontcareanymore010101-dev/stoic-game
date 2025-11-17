@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stoic Escape</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h2 class="title">STOIC ESCAPE</h2>
+
+<canvas id="gameCanvas" width="320" height="320"></canvas>
+
+<div class="controls">
+    <button onclick="move('up')">▲</button>
+    <div class="middle">
+        <button onclick="move('left')">◀</button>
+        <button onclick="move('right')">▶</button>
+    </div>
+    <button onclick="move('down')">▼</button>
+</div>
+
+<div id="popup" class="popup"></div>
+
+<script src="game.js"></script>
+</body>
+</html>
