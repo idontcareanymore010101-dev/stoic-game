@@ -1,0 +1,47 @@
+body {
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+canvas {
+    background: #222;
+    margin-top: 10px;
+    image-rendering: pixelated;
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+.controls button {
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+    border: none;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.middle {
+    display: inline-block;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 16px;
+}
